@@ -1,0 +1,43 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "scale_length_mm": 351.5,
+    "frets": [
+      {
+        "fret": 1,
+        "from_nut_mm": 19.728,
+        "from_previous_mm": 19.728,
+        "speaking_length_mm": 331.772
+      },
+      {
+        "fret": 2,
+        "from_nut_mm": 38.349,
+        "from_previous_mm": 18.621,
+        "speaking_length_mm": 313.151
+      },
+      {
+        "fret": 3,
+        "from_nut_mm": 55.925,
+        "from_previous_mm": 17.576,
+        "speaking_length_mm": 295.575
+      },
+      {
+        "fret": 4,
+        "from_nut_mm": 72.514,
+        "from_previous_mm": 16.589,
+        "speaking_length_mm": 278.986
+      },
+      {
+        "fret": 5,
+        "from_nut_mm": 88.173,
+        "from_previous_mm": 15.658,
+        "speaking_length_mm": 263.327
+      }
+    ]
+  }
+}
